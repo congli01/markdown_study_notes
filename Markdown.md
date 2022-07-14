@@ -29,6 +29,9 @@ ___粗斜体___
 ### 下划线
 <u>Google</u>
 
+### 高亮
+==高亮==
+
 ### 脚注
 创建脚注[^RUNOOB]
 [^RUNOOB]:菜鸟教程
@@ -55,7 +58,7 @@ ___粗斜体___
     * 嵌套2
 
 
-## part3 区块
+## part4 区块
 ### 基本用法
 > 区块引用
 > Markdown区块
@@ -76,7 +79,7 @@ ___粗斜体___
     > block
 - second
 
-## part4 代码
+## part5 代码
 使用反引号(`)包起来，例如：
 
 `printf()`函数
@@ -94,7 +97,7 @@ public void print(String content) {
 ```
 
 
-## part5 链接
+## part6 链接
 名称加地址：[菜鸟教程](https://www.runoob.com)
 
 直接用地址：<https://github.com>
@@ -108,7 +111,7 @@ public void print(String content) {
 [runoob]: https://www.runoob.com
 
 
-## part6 图片
+## part7 图片
 语法格式：
 
     ![alt 属性文本](图片地址)
@@ -128,7 +131,7 @@ public void print(String content) {
 <img src="https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/04/ChMkJ1bKyA2IUt_bAAvPNhi8QSoAALH8gHIUicAC89O906.jpg" width = 100%>
 
 
-## part7 表格
+## part8 表格
 使用|来分隔不同的单元格，使用-来分隔表头和其他行
 
 |表头1|表头2|表头3|
@@ -141,7 +144,7 @@ public void print(String content) {
 |左|右|中|
 
 
-## part8 高级技巧
+## part9 高级技巧
 - 支持的HTML元素
 - 转义
 **文本加粗**
@@ -157,3 +160,5 @@ $$
     c & d
 \end{Bmatrix}
 $$
+
+$$\lim_{x \to 0} sin(x) = 0 $$
